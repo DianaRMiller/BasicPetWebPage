@@ -1,0 +1,33 @@
+body {
+  background-color: gray;
+}
+
+.pet {
+  float: left;
+  margin: 0px 20px 0px 20px;
+}
+
+.dog {
+  color: green;
+  background-color: white;
+}
+
+.cat {
+  color: blue;
+}
+
+.monkey {
+  color: red;
+}
+
+.dog .fancy {
+  font-style: italic;
+}
+
+.cat .fancy {
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+}
