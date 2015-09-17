@@ -1,11 +1,10 @@
+@media (min-width: 768px) and (max-width: 991px) {
+
+
 body {
   background-color: gray;
 }
 
-.pet {
-  float: left;
-  margin: 0px 20px 0px 20px;
-}
 
 .dog {
   color: green;
@@ -30,4 +29,68 @@ body {
 
 h2 {
   text-align: center;
+}
+
+.jumbotron {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: lightblue;
+}
+
+.jumbotron h1 {
+  text-align: center;
+}
+
+}
+
+@media (max-width: 767px) {
+
+img {
+  display: none
+}
+
+body {
+  background-color: gray;
+}
+
+
+.dog {
+  color: green;
+  background-color: white;
+}
+
+.cat {
+  color: blue;
+}
+
+.monkey {
+  color: red;
+}
+
+.dog .fancy {
+  font-style: italic;
+}
+
+.cat .fancy {
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+}
+
+.jumbotron {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: lightblue;
+}
+
+.jumbotron h1 {
+  text-align: center;
+}
+
 }
